@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XCAssetsIssueDemo_Example' do
+  pod 'XCAssetsIssueDemo', :path => '../'
+
+  target 'XCAssetsIssueDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
