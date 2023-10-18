@@ -1,0 +1,16 @@
+PODS:
+  - XCAssetsIssueDemo (0.1.0)
+
+DEPENDENCIES:
+  - XCAssetsIssueDemo (from `../`)
+
+EXTERNAL SOURCES:
+  XCAssetsIssueDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XCAssetsIssueDemo: f0325fe4b53738a7f9e2065634bb096e6f58e184
+
+PODFILE CHECKSUM: be6ef212c07e8453407f86469a0a061773da2bab
+
+COCOAPODS: 1.11.3
