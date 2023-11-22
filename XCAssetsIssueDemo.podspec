@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'XCAssetsIssueDemo/Classes/**/*'
+  s.resources = 'XCAssetsIssueDemo/Assets/**/*'
   
   # s.resource_bundles = {
   #   'XCAssetsIssueDemo' => ['XCAssetsIssueDemo/Assets/*.png']

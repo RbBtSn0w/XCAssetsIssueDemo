@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1280E86D30FBFCAEFDF19A1B /* Pods_XCAssetsIssueDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D40B6DF346A77E3A3E122C0 /* Pods_XCAssetsIssueDemo_Example.framework */; };
-		19DE97BBC52B639680CE5275 /* Pods_XCAssetsIssueDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFEFDE7F56D35D18E9E48AC /* Pods_XCAssetsIssueDemo_Tests.framework */; };
+		02D7AEE2D6105F3611A1A44E /* Pods_XCAssetsIssueDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56995A6BBDD182EF9D29710D /* Pods_XCAssetsIssueDemo_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C05BE1AED53B93C821CA3E0D /* Pods_XCAssetsIssueDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66700EC478AA244984F572 /* Pods_XCAssetsIssueDemo_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +29,11 @@
 
 /* Begin PBXFileReference section */
 		109E8D8FA9ADAF7CE1A77C3B /* XCAssetsIssueDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XCAssetsIssueDemo.podspec; path = ../XCAssetsIssueDemo.podspec; sourceTree = "<group>"; };
-		2AFEFDE7F56D35D18E9E48AC /* Pods_XCAssetsIssueDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCAssetsIssueDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66700EC478AA244984F572 /* Pods_XCAssetsIssueDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCAssetsIssueDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5D364A0E67558FA920D52F /* Pods-XCAssetsIssueDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCAssetsIssueDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-XCAssetsIssueDemo_Tests/Pods-XCAssetsIssueDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		46A12567AEADD9118AC85CA7 /* Pods-XCAssetsIssueDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCAssetsIssueDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-XCAssetsIssueDemo_Example/Pods-XCAssetsIssueDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4C918CE9AA79ED067FCA949D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		56995A6BBDD182EF9D29710D /* Pods_XCAssetsIssueDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCAssetsIssueDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C43F88F4F8D6DE79EA4347 /* Pods-XCAssetsIssueDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCAssetsIssueDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XCAssetsIssueDemo_Tests/Pods-XCAssetsIssueDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XCAssetsIssueDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCAssetsIssueDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 		607FACE51AFB9204008FA782 /* XCAssetsIssueDemo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCAssetsIssueDemo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6D40B6DF346A77E3A3E122C0 /* Pods_XCAssetsIssueDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCAssetsIssueDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA06C5EBA909D4389E5193A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C9C20A4FEFD9527C3A07D4AE /* Pods-XCAssetsIssueDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCAssetsIssueDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-XCAssetsIssueDemo_Example/Pods-XCAssetsIssueDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1280E86D30FBFCAEFDF19A1B /* Pods_XCAssetsIssueDemo_Example.framework in Frameworks */,
+				C05BE1AED53B93C821CA3E0D /* Pods_XCAssetsIssueDemo_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19DE97BBC52B639680CE5275 /* Pods_XCAssetsIssueDemo_Tests.framework in Frameworks */,
+				02D7AEE2D6105F3611A1A44E /* Pods_XCAssetsIssueDemo_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +153,8 @@
 		CE91D0E770DC0B0AFD068A46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D40B6DF346A77E3A3E122C0 /* Pods_XCAssetsIssueDemo_Example.framework */,
-				2AFEFDE7F56D35D18E9E48AC /* Pods_XCAssetsIssueDemo_Tests.framework */,
+				1D66700EC478AA244984F572 /* Pods_XCAssetsIssueDemo_Example.framework */,
+				56995A6BBDD182EF9D29710D /* Pods_XCAssetsIssueDemo_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +170,8 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				1097097121D30E15A77F9064 /* [CP] Embed Pods Frameworks */,
+				B1FD86C92AEBBD1400B2891B /* ShellScript */,
+				A136794C208DF5DBCCBECE7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,23 +263,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1097097121D30E15A77F9064 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XCAssetsIssueDemo_Example/Pods-XCAssetsIssueDemo_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XCAssetsIssueDemo_Example/Pods-XCAssetsIssueDemo_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XCAssetsIssueDemo_Example/Pods-XCAssetsIssueDemo_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		693BED65C0B6F16D761C3EAB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +284,40 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		A136794C208DF5DBCCBECE7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XCAssetsIssueDemo_Example/Pods-XCAssetsIssueDemo_Example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XCAssetsIssueDemo_Example/Pods-XCAssetsIssueDemo_Example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XCAssetsIssueDemo_Example/Pods-XCAssetsIssueDemo_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1FD86C92AEBBD1400B2891B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
 		};
 		F16B79B0D1DB37268DB6A347 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -524,6 +542,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,6 +565,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
